@@ -1,0 +1,41 @@
+@font-face {
+    font-family: KodeMono;
+    src: url(KodeMono-VariableFont_wght.ttf);
+}
+*{
+    font-family: KodeMono;
+}
+.logo{
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.logo:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.imagen{
+    height: 300px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.albumes{
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+.imagen{
+    transition: transform .2s; /* Animation */
+    padding: 20px;
+}
+.imagen:hover{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
